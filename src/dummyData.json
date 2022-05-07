@@ -1,0 +1,72 @@
+{
+  "user": {
+    "name": "Jo",
+    "id": 1
+  },
+  "runTypes": [
+    {
+      "id": 1,
+      "name": "General aerobic",
+      "description": "in the aerobic zone"
+    },
+    {
+      "id": 2,
+      "name": "run a bit fast",
+      "description": "to get faster"
+    }
+  ],
+  "plans": [
+    {
+      "planSummary": {
+        "id": 1,
+        "title": "marathon 2022",
+        "description": "a bastardised pfitz for my second marathon",
+        "startDate": "2022-06-18T00:00:00.000Z",
+        "endDate": "2022-10-18T00:00:00.000Z",
+        "plannedRuns": [
+          {
+            "id": 1,
+            "date": "2022-06-18",
+            "distance": 4,
+            "unit": "mile",
+            "durationMinutes": 0,
+            "type": 1,
+            "completed": "false",
+            "changed": "true"
+          },
+          {
+            "id": 2,
+            "date": "2022-06-18",
+            "distance": 4,
+            "unit": "mile",
+            "durationMinutes": 0,
+            "type": 1,
+            "completed": "true",
+            "changed": "false"
+          }
+        ],
+        "actualRuns": [
+          {
+            "plannedRun": 1,
+            "date": "2022-06-18",
+            "distance": 6,
+            "unit": "mile",
+            "durationMinutes": 0,
+            "type": 1
+          }
+        ]
+      }
+    },
+    {
+      "planSummary": {
+        "id": 2,
+        "title": "build up 2022",
+        "description": "build up to mara trainning",
+        "startDate": "2022-05-01T00:00:00.000Z",
+        "endDate": "2022-06-18T00:00:00.000Z",
+        "plannedRuns": [],
+        "actualRuns": []
+      }
+    }
+  ]
+}

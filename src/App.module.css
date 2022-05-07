@@ -1,14 +1,19 @@
-.App {
-  text-align: center;
-}
-
-.Appheader {
+.app {
   background-color: var(--main-5);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.cardsContainer {
+  display: flex;
+}
+
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
 }

@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-1);
+  color: var(--black);
+  border: 2px solid var(--main-3);
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}
